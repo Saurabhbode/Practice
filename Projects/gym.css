@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/Image/Gym\ web.jpg) ;
+    background-position: center;
+    height: 1200px;
+    
+}
+div{
+    /* border: 2px solid red; */
+}
+.logo img{
+    width: 90px;
+    
+}
+.logo{
+    width: 200px;
+    display: inline-block;
+    float: left;
+    margin: 20px 0 0 50px;
+    color: antiquewhite;
+    
+}
+.logo p{
+    font-family: cursive;
+    margin-top: 5px;
+    color: brown;
+    font-size: 30px;
+    
+}
+.navbar{
+    float: left;
+    display: inline-block;
+    width: 700px;
+    height: 66px;
+    margin: 20px 0 0 200px;
+    
+}
+.contact{
+    float: right;
+    display: inline-block;
+    width: 300px;
+    height: 66px;
+    margin: 20px ;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.navbar a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+.contact button{
+    margin-top: 15px;
+    float: right;
+    margin-right: 15px;
+    border: none;
+    width: 100px;
+    height: 23px;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: antiquewhite;
+}
+.quotes{
+    height:500px;
+    width: 500px;
+    float: left;
+    clear: both;
+    margin: 50px;
+
+}
+marquee{
+    color: rgb(146, 94, 26);
+    font-size: 40px;
+    font-family: cursive;
+}
+.about{
+    height: 450px;
+    color: rgb(146, 94, 26);
+}
+button:hover{
+    color: brown;
+    background-color: black;
+
+}
+a:hover{
+    color: brown;
+}  
+.chat{
+    position: absolute;
+    right: 20px; 
+    bottom: 100px;
+    height: 400px;
+    width: 250px;
+} 
+.info{
+    margin: 10px 0 0 20px;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    font-family: cursive;
+}   
+.chat button{
+    margin: 10px 0 0 20px;
+    border: none;
+    width: 100px;
+    height: 23px;
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: antiquewhite;
+}
+.chat button:hover{
+    color: brown;
+    background-color: black;
+}

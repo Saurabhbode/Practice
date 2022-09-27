@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+    }
+
+    div {
+        background-color: rgb(44, 42, 42);
+    }
+
+    .head {
+        /* border: 2px solid red; */
+        height: 88px;
+    }
+
+    .left {
+        /* border: 2px solid green; */
+        height: 900px;
+        width: 223px;
+        float: left;
+    }
+
+    .container {
+        /* border: 2px solid black; */
+        width: 1291px;
+        height: 900px;
+        float: left;
+    }
+
+    .logo {
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        float: left;
+    }
+
+    .search {
+        float: left;
+        /* border: 2px solid green; */
+        width: 60%;
+        height: 86px;
+
+    }
+
+    .search input {
+        width: 500px;
+        height: 40px;
+        margin: 20px 0 0 250px;
+        border-radius: 2px;
+        border: 1px solid grey;
+        background-color: black;
+        color: antiquewhite;
+    }
+
+    .login {
+        /* border: 2px solid red; */
+        width: 447px;
+        height: 84px;
+        float: left;
+
+    }
+
+    input[type=Email] {
+        position: absolute;
+        right: 20px;
+        top: 18px;
+    }
+
+    input[type=Password] {
+        position: absolute;
+        right: 20px;
+        top: 38px;
+    }
+
+    input[type=Submit] {
+        margin-top: 3px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+        padding: 2px 10px 2px 10px;
+        background-color: brown;
+        color: white;
+        margin-right: 113px;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    form {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .thumbnail {
+        /* border: 2px solid yellow; */
+        width: 300px;
+        height: 200px;
+        margin: 10px 5px 10px 5px;
+        float: left;
+    }
+
+    .menu {
+        border: 2px solid black;
+        background-color: rgb(71, 67, 67);
+        margin-top: 20px;
+        height: 30px;
+        text-align: center;
+
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 03px 03px 10px rgba(255, 255, 255, .2);
+
+    }
+
+    .menu:hover {
+        background-color: brown;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .img-size {
+        width: 300px;
+        height: 200px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="logo">
+                <a href="#"><img src="/Image/Netflix.png" width="140px" alt=""></a>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="search">
+            </div>
+            <div class="login">
+                <form action="">
+                    <input type="Email" placeholder="Login Id"> <br>
+                    <input type="Password" name="" id="" placeholder="Password"> <br>
+                    <input type="Submit" name="" id="">
+                </form>
+            </div>
+        </div>
+
+    </header>
+    <div class="left">
+        <div class="menu">Home</div>
+        <div class="menu">Explore</div>
+        <div class="menu">Shorts</div>
+        <div class="menu">Subscription</div>
+        <div class="menu">Originals</div>
+        <div class="menu">Library</div>
+        <div class="menu">History</div>
+        <div class="menu">Watch later</div>
+        <div class="menu">Downloads</div>
+        <div class="menu">Liked Videos</div>
+
+    </div>
+    <div class="container">
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/2.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/3.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/4.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/5.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/3.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/4.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/5.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/2.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/3.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/4.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/5.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/2.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/3.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/4.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/2.webp" alt="" class="img-size"></a> </div>
+        <div class="thumbnail"> <a href="#" target="_blank"><img src="/Image/4.webp" alt="" class="img-size"></a> </div>
+
+    </div>
+</body>
+
+</html>
